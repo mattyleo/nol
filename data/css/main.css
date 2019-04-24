@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} 
+
+body {
+  font-family: 'Anton';
+  font-size: 48px;
+}
+
+header {
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.presentation {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.hero-info {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  /* padding: 40px; */
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.testata-aziendale {
+  text-align: center;
+  margin-top: 2%;
+  color: white;
+  font-size: 250%;
+}
+
+.descriptions {
+  font-size: 45px;
+  color: white;
+  text-align: center;
+}
+
+.video-storage {
+  margin-left: 45%;
+  width: 150px;
+}
+
+.video-play {
+  margin-top: 50%;
+  
+  width: 100%;
+}
+/* rgb(7, 71, 247) */

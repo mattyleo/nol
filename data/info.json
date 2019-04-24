@@ -1,0 +1,40 @@
+{
+  "sardegna": [{
+    "company": "Nol Nautica",
+    "neighborhood": "Porto di Punta Marana - Golfo di Marinella",
+    "photograph": "1.jpg",
+    "address": "Interno 7, Località Punta Marana, 07020 Golfo Aranci",
+    "latlng": {
+      "lat": "41.001253",
+      "lng": "9.559318"
+    },
+    "services": "Noleggio gommoni e imbarcazioni, noleggio moto d'acqua, flyboard, bananone, pedalò",
+    "operating_hours": {
+      "Lunedì": "08:00 am -20:00 pm",
+      "Marterdì": "08:00 am -20:00 pm",
+      "Mercoledì": "08:00 am -20:00 pm",
+      "Giovedì": "08:00 am -20:00 pm",
+      "Venerdì": "08:00 am -20:00 pm",
+      "Sabato": "08:00 am -20:00 pm",
+      "Domenica": "08:00 am -20:00 pm",
+    },
+    "reviews": [{
+      "name": "Gian Paolo Altana",
+      "date": "7 Settembre, 2018",
+      "rating": "5",
+      "comments": "Serietà, professionalità, simpatia. Il miglior posto della zona dove noleggiare i mezzi marini."
+    },
+    {
+      "name": "tommaso lombardo",
+      "date": "25 Luglio, 2017",
+      "rating": "5",
+      "comments": "località fantastica da esplorare, vasta scelta di servizi tra cui moto d'acqua, fly board, jet board, yelo, e tanto altro, ragazzi professionali e proprietario fuori di testa, in poche parole TOP..."
+    },
+    {
+      "name": "Graziano Manganelli",
+      "date": "12 Agosto, 2015",
+      "rating": "5",
+      "comments": "Divertimento garantito con il Flyboard grazie all'assistenza del simpaticissimo Jurgen. Da provare assolutamente"
+    }]
+  }]
+}
