@@ -17,7 +17,7 @@ document.querySelector('.hero-content').appendChild(heroContent);
 
 const companyName = document.createElement('h1');
 companyName.className = 'testata-aziendale';
-const company = 'Nol Nautica';
+const company = 'NolNautica';
 const strong = company.bold().toUpperCase();
 companyName.innerHTML = strong;
 const description = document.createElement('p');
