@@ -46,10 +46,3 @@ videoPlay.className = 'video-play';
 videoPlay.alt = 'youtube-play';
 videoPlay.src = play;
 document.querySelector('.link-video').appendChild(videoPlay);
-
-
-// videoPlay.className = 'video-play';
-// videoPlay.alt = 'youtube-play';
-// document.querySelector('.video-storage').appendChild(videoPlay);
-// videoPlay.src = play;
-// document.querySelector('.video-play').appendChild(videoFile);
