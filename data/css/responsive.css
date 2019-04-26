@@ -1,0 +1,64 @@
+@media screen and (min-width: 320px) and (max-width: 400px) {
+  .testata-aziendale {
+    font-size: 80%;
+  }
+
+  .presentation {
+    top: 50% !important;
+    left: 50% !important;
+    -webkit-transform: translate(-50%,-50%) !important;
+    -ms-transform: translate(-50%,-50%) !important;
+    transform: translate(-50%,-50%) !important;
+}
+
+  .descriptions {
+    font-size: 40%;
+  }
+
+  .video-storage {
+    margin-left: 28%;
+  }
+  .video-play {
+    width: 75%;
+  }
+} 
+
+@media screen and (min-width: 401px) and (max-width: 700px) {
+  .testata-aziendale {
+    font-size: 90%;
+  }
+
+  .descriptions {
+    font-size: 50%;
+  }
+
+  .presentation {
+    top: 50% !important;
+    left: 50% !important;
+    -webkit-transform: translate(-50%,-50%) !important;
+    -ms-transform: translate(-50%,-50%) !important;
+    transform: translate(-50%,-50%) !important;
+  }
+
+  .video-storage {
+    margin-left: 32%;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1024px) {
+  .testata-aziendale {
+    font-size: 95%;
+  }
+
+  .descriptions {
+    font-size: 85%;
+  }
+
+  .presentation {
+    top: 50% !important;
+    left: 50% !important;
+    -webkit-transform: translate(-50%,-50%) !important;
+    -ms-transform: translate(-50%,-50%) !important;
+    transform: translate(-50%,-50%) !important;
+  }
+}
