@@ -30,7 +30,7 @@ document.querySelector('.hero-info').appendChild(description);
 
 // play
 
-const linkVideo = 'https://www.youtube.com/watch?v=hFdOoO_J7zs';
+const linkVideo = 'https://www.youtube.com/watch?v=sLubzIsO0Gc&feature=youtu.be&fbclid=IwAR3yxdy-2rrU2KeDIG5hhs-MTZ5rnjTIh80dOZn-P8o0GtjN7YvmjdVY2Jc';
 
 
 const videoData = document.createElement('div');
