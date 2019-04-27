@@ -26,14 +26,15 @@ document.querySelector('.hero-info').appendChild(companyName);
 document.querySelector('.hero-info').appendChild(description);
 
 // set the video link
-const surceV = '03Y4X7cG_EE';
-const surceVideo = 'http://www.youtube.com/embed/' + surceV + '?autoplay=1&html5=1';
-// const surceVideo = 'data/video/nolnautica.mp4';
+
+const surceV = '03Y4X7cG_EE/autoplay=1&enablejsapi=1';
+const surceVideo = 'https://www.youtube.com/embed/' + surceV;
+//const surceVideo = 'data/video/nolnautica.mp4';
 const linkVideo = surceVideo 
 
 // modal central content
 
-const modalWindow = document.createElement('video');
+const modalWindow = document.createElement('iframe');
 modalWindow.id = 'info-modal';
 modalWindow.className = 'modal';
 modalWindow.src = linkVideo;
@@ -62,9 +63,15 @@ videoFile.setAttribute('href', '#');
 document.querySelector('.video-play').appendChild(videoFile);
 
 // play video in modal
+
+// const videoPresentation = document.createElement('video');
+// videoPresentation.className = 'nolnautica-video';
+// videoPresentation.src = linkVideo;
+// videoPresentation.controls = true;
+// document.querySelector('.modal').appendChild(videoPresentation);
+
 videoPlay.onclick =() => {
   modalWindow.style.display = 'block';
-  modalWindow.play(onclick);
 }
 
 // closing modal video session
