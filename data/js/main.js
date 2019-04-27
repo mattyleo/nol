@@ -1,23 +1,22 @@
 // create the video contents
-const presentation = document.createElement('video');
-presentation.className = 'presentation';
-presentation.src = 'data/video/presentation.m4v';
-presentation.play = true;
-presentation.autoplay = true;
-presentation.loop = true;
-presentation.muted = true;
-document.querySelector('.testata').appendChild(presentation);
+const videoLoop = document.createElement('video');
+videoLoop.className = 'presentation';
+videoLoop.src = 'data/video/presentation.m4v';
+videoLoop.play = true;
+videoLoop.autoplay = true;
+videoLoop.loop = true;
+videoLoop.muted = true;
+document.querySelector('.testata').appendChild(videoLoop);
 
 
 // Company Info 
-
 const heroContent = document.createElement('div');
 heroContent.className = 'hero-info';
 document.querySelector('.hero-content').appendChild(heroContent);
 
 const companyName = document.createElement('h1');
 companyName.className = 'testata-aziendale';
-const company = 'NolNautica';
+const company = 'Nolnautica';
 const strong = company.bold().toUpperCase();
 companyName.innerHTML = strong;
 const description = document.createElement('p');
@@ -26,23 +25,53 @@ description.innerHTML = 'Costa Smeralda watersports paradise';
 document.querySelector('.hero-info').appendChild(companyName);
 document.querySelector('.hero-info').appendChild(description);
 
+// set the video link
 
+// const surceVideo = 'https://www.youtube.com/watch?v=03Y4X7cG_EE' + "&output=embed";
+const surceVideo = 'data/video/nolnautica.mp4';
+const linkVideo = surceVideo 
 
-// play
+// modal central content
 
-const linkVideo = 'https://www.youtube.com/watch?v=03Y4X7cG_EE';
+const modalWindow = document.createElement('video');
+modalWindow.id = 'info-modal';
+modalWindow.className = 'modal';
+modalWindow.src = linkVideo;
+modalWindow.controls = true;
+document.querySelector('.hero-info').appendChild(modalWindow);
 
+// set the modal frame to play the video
 
 const videoData = document.createElement('div');
 videoData.className = 'video-storage';
 document.querySelector('.hero-info').appendChild(videoData);
-const videoFile = document.createElement('a');
-videoFile.className = 'link-video';
-videoFile.setAttribute('href', linkVideo);
-document.querySelector('.video-storage').appendChild(videoFile);
+
+// crete the button to open the video file
+
 const play = 'data/images/play.png';
 const videoPlay = document.createElement('img');
 videoPlay.className = 'video-play';
 videoPlay.alt = 'youtube-play';
 videoPlay.src = play;
-document.querySelector('.link-video').appendChild(videoPlay);
+document.querySelector('.video-storage').appendChild(videoPlay);
+
+//let-create the link
+const videoFile = document.createElement('a');
+videoFile.className = 'link-video';
+videoFile.setAttribute('href', '#');
+document.querySelector('.video-play').appendChild(videoFile);
+
+// play video in modal
+videoPlay.onclick =() => {
+  modalWindow.style.display = 'block';
+  modalWindow.play(onclick);
+}
+
+// closing modal video session
+
+window.onclick = () => {
+  if(event.target == modalWindow) {
+    modalWindow.style.display = 'none'
+    modalWindow.play(onclick) == false;
+  }
+}
