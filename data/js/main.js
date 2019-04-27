@@ -26,9 +26,9 @@ document.querySelector('.hero-info').appendChild(companyName);
 document.querySelector('.hero-info').appendChild(description);
 
 // set the video link
-
-// const surceVideo = 'https://www.youtube.com/watch?v=03Y4X7cG_EE' + "&output=embed";
-const surceVideo = 'data/video/nolnautica.mp4';
+const surceV = '03Y4X7cG_EE';
+const surceVideo = 'http://www.youtube.com/embed/' + surceV + '?autoplay=1&html5=1';
+// const surceVideo = 'data/video/nolnautica.mp4';
 const linkVideo = surceVideo 
 
 // modal central content
