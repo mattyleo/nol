@@ -47,12 +47,24 @@ header {
 
 .video-storage {
   margin-left: 45%;
-  width: 150px;
+  width: 200px;
 }
 
 .video-play {
   margin-top: 50%;
-  
-  width: 100%;
+  width: 50%;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  margin-left: 34%;
+  margin-top: 0%;
+  width: 620px;
+  height: 340px;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9);
 }
 /* rgb(7, 71, 247) */
