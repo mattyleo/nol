@@ -30,6 +30,7 @@ playButton.className = 'video-storage';
 document.querySelector('.hero-info').appendChild(playButton);
 const ytButton = document.createElement('img');
 ytButton.className = 'play-button';
+ytButton.alt = 'youtube play image';
 ytButton.src = 'data/images/ytlogo.png';
 document.querySelector('.video-storage').appendChild(ytButton);
 
